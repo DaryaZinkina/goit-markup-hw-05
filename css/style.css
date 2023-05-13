@@ -251,7 +251,7 @@ ul {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: var(--color-white);
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .sect {
   color: var(--color-grey);
@@ -338,7 +338,6 @@ ul {
   color: var(--color-grey);
 }
 .color-our-team {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
   gap: 24px;
 }
@@ -579,6 +578,7 @@ p {
   margin-bottom: 8px;
 }
 .social-items {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 40px;
   height: 40px;
 }
@@ -650,6 +650,7 @@ p {
   border-radius: 50%;
 }
 .s-items {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 40px;
   height: 40px;
 }

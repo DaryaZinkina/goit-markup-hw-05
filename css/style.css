@@ -821,6 +821,6 @@ p {
 }
 .href-link:hover .overlay-text,
 .href-link:focus .overlay-text {
-  transform: translateY(100%);
+  transform: translateY(0%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

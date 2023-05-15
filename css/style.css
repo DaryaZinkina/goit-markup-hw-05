@@ -706,16 +706,16 @@ p {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.body-medium::after {
+.body-medium.active::after {
   display: block;
   content: "";
-
+  position: absolute;
   width: 100%;
   height: 2px;
-
-  border-radius: 4px;
-}
-.body-medium.active::after {
+  left: 0;
+  border-radius: 2px;
+  bottom: -1px;
+  height: 4px;
   background-color: var(--color-ocean);
 }
 /* modal window */
@@ -762,7 +762,7 @@ p {
   height: 24px;
 }
 .modal-close-icon {
-  fill: var(--color-navy-blue);
+  fill: currentColor;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .thumb-app {
